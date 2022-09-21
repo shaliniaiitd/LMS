@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div class="p-4 bg-light">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+      <p class="col-md-8 fs-4">our liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Home</button>
+    </div>
+    <div class="container">
+  <div class="row">
+
+    <div class="col-lg-6">
+        {% comment %}
+     # <img src="{% static 'Admin-icon.png' %}" width="50%" height="50%" alt=""><br><br>
+        {% endcomment %}
+        <a class="btn btn-outline-primary btn-lg" style="text-align:center" href="/admin_login/">Admin</a>
+    </div>
+
+    <div class="col-lg-6">
+                {% comment %}
+
+     # <img src="{% static 'student.png' %}" width="50%" height="50%" alt=""><br><br>
+             {% endcomment %}
+
+      <a class="btn btn-outline-primary btn-lg" href="/student_login/">Student</a>
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
